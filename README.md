@@ -1,27 +1,37 @@
+# Job Application Email Automation
 
-## How to use
+Welcome! This code is designed to automate the process of sending job application emails using the `smtplib` module. Below are the steps to get started:
 
-Dear, I hope you're all doing good.
-this code is a code using the module "smtplib" to send emails, I am using it to apply for jobs
+## Getting Started
 
-1- The first thing you have to do is replace the file "cover.pdf" and the file "Resume.pdf" with your own resume and cover letter.
+1. **Replace Resume and Cover Letter**:
+   - Replace the files `cover.pdf` and `Resume.pdf` with your own resume and cover letter.
 
-2- Then open the Excel file "Job_Track.xlsx" from the sheet personal data and fill your personal information
+2. **Fill Personal Information**:
+   - Open the Excel file `Job_Track.xlsx` and navigate to the "Personal Data" sheet. Fill in your personal information.
 
-3- Enter the following link and get your own gmail key https://support.google.com/mail/answer/185833?hl=en
+3. **Get Gmail Key**:
+   - Follow [this link](https://support.google.com/mail/answer/185833?hl=en) to obtain your Gmail API key.
 
-4- Copy and past the password you've generated in the password cell in the excel file in personal data sheet
+4. **Set Gmail Password**:
+   - Copy and paste the generated password into the "Password" cell in the Excel file under the "Personal Data" sheet.
 
-5- Now you can start creating your company database in sheet called "data"
+5. **Create Company Database**:
+   - Start creating your company database in the "data" sheet of the Excel file.
 
-6- The file Body.py defines the message that you want to send you can change it if you have knowlodge with html language
+6. **Customize Email Message**:
+   - The file `Body.py` defines the message that will be sent. Customize it according to your preferences. Knowledge of HTML can be helpful for advanced customization.
 
-7- To send the emails, open the file main.py and run it
+7. **Send Emails**:
+   - Open the file `main.py` and run it to start sending the emails. The emails will be sent one by one.
 
-!!!! I seggust you to try emails you have access to, to ensure that it's working properly before sending real job application !!!
+## Important Notes
 
-The emails will start sending one by one.
+- **Test Emails First**:
+  - It's recommended to test with emails you have access to before sending real job applications. This ensures everything is working correctly.
 
-For you have any questions or improvments don't hesitate to contact me, I would like to enhance it more to make more usable for non-technical people
+## Feedback and Support
 
-Take care :)
+If you have any questions, suggestions for improvements, or need assistance, feel free to contact me. I'm constantly working on enhancing this tool to make it more user-friendly for everyone.
+
+Take care and happy job hunting! :)
